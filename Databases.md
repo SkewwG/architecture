@@ -152,6 +152,7 @@ MongoDB、CouchDB、Amazon DynamoDB、CouchBase……
 
 
 ## 3. MapReduce 分布式计算引擎
+![](https://github.com/SkewwG/architecture/blob/master/MapReduce.png?raw=true)
 Hadoop，高度可扩展的文件系统，兼具存储、检索、分布式处理
 
 MapReduce 基本原理
