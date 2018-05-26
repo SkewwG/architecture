@@ -125,7 +125,7 @@ HTTP协议在应用层是基于文本的
 HTTP Server必须支持GET和HEAD方法，其他方法可选，也可以自定义进行扩展。
 
 ## 10. 状态码
-* 1XX：信息，请求已被服务端收到，请继续。日丁丁P/1.1才支持
+* 1XX：信息，请求已被服务端收到，请继续。HTTP/1.1才支持
 
 * 2XX：成功，请求已成功被服务端收到、理解并处理完毕
 
@@ -387,13 +387,19 @@ RESTful, 全称Representational State Transfer。是一种设计风格，提供了一组设计原则
 用 HTTP Status Code传递Server的状态信息。
 
 **【重点24】：为什么要用RESTful结构？**
+
 以前基本就用http的post和get。restful就是让你把delete put patch这些method给用起来，而不是通过post加上参数action=delete来实现删除操作。
 
 
 
 参考文献：
+
 https://www.cnblogs.com/icelin/p/3974935.html
+
 https://blog.csdn.net/qq_28885149/article/details/52922107
+
 https://blog.csdn.net/u010369338/article/details/65627999
+
 https://blog.csdn.net/u011904605/article/details/53012844
+
 https://www.zhihu.com/question/28557115/answer/48094438
